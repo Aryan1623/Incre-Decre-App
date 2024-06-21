@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.controls {
+  margin: 20px;
+}
+
+h1{
+  color: orangered;
+  font-family:sans-serif;
+}
+
+button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: red;
+  color: white;
+  border-radius: 15px;
+}
+
+button:hover{
+  background-color: #e0e0e0;
+  color: black;
+  border: 2px red solid;
+}
+
+.progress-bar-container {
+  width: 80%;
+  height: 30px;
+  background-color: #e0e0e0;
+  margin: 20px auto;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  
+  height: 100%;
+  background-color: orangered;
+  transition: width 0.3s ease-in-out;
+}
+
+.number-display {
+  font-size: 24px;
+  margin-top: 20px;
+  color: orangered
+}
+
+body{
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,49,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
